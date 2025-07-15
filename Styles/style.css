@@ -240,7 +240,7 @@ nav ul li .dropdown {
     border: 4px #111e26 solid;
     transition: 1s;
     left: -50%;
-
+    z-index: 50;
     opacity: 0;
     top: 150%;
     visibility: hidden;
@@ -773,6 +773,7 @@ nav>label:hover {
     position: absolute;
     top: 20px;
     left: 0;
+    z-index: 30;
 }
 
 /* End heading */
